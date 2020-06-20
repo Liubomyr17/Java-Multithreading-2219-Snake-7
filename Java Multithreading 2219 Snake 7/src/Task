@@ -1,0 +1,16 @@
+
+Snake 7
+We described the pieces of the snake, now let's take care of the snake itself.
+The snake should have a list of pieces (SnakeSection) and a head.
+Let the head be just the first piece itself (with number 0).
+The snake also has a direction of movement - the side where it moves by default.
+And there is a condition - the snake is alive or dead.
+The game ends when the snake is dead.
+It is necessary:
+A) Add a sections field of type List <SnakeSection> to the Snake class
+B) Add an isAlive field of type boolean.
+C) Add a direction field of type SnakeDirection.
+D) for all fields add getter, and for direction also a setter.
+Note:
+For fields of a logical type, getters are usually written not as getValue (), but
+as isValue () - this improves the readability of the code.
